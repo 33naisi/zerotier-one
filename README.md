@@ -1,6 +1,6 @@
 # zerotier-one
 
-代码来源：zerotier官网 > Download > Others > DOCKER,链接地址https://github.com/zerotier/ZeroTierOne/tree/master/ext/installfiles/linux/zerotier-containerized
+代码来源（非完全复制，修改了安装版本和Copy路径）：zerotier官网 > Download > Others > DOCKER,链接地址https://github.com/zerotier/ZeroTierOne/tree/master/ext/installfiles/linux/zerotier-containerized
 
 ## 确认内核是否有tun模块
 
