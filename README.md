@@ -18,7 +18,7 @@
 
 ## 运行：
 
-docker run -d --restart restart --name zerotier-one --device /dev/net/tun --network host --cap-add NET_ADMIN --cap-add SYS_ADMIN -v $your_dir/zerotier-one:/var/lib/zerotier-one 33naisi/zerotier-one
+docker run -d --restart always --name zerotier-one --device /dev/net/tun --network host --cap-add NET_ADMIN --cap-add SYS_ADMIN -v $your_dir/zerotier-one:/var/lib/zerotier-one 33naisi/zerotier-one
 
 ## 加入网络:
 
