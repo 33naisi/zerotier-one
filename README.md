@@ -24,7 +24,7 @@ docker run -d \
 
 --device /dev/net/tun \
 
---net host \
+--network host \
 
 --cap-add NET_ADMIN \
 
